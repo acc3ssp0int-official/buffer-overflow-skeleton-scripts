@@ -10,7 +10,7 @@ import time
 
 
 if len(sys.argv) < 3:
-	print("Usage: python 01-fuzzer.py $TargetIP $Port")
+	print("Usage: python 02-pattern_overwrite.py $TargetIP $Port")
 	sys.exit(1)
 
 host = str(sys.argv[1])
